@@ -28,7 +28,7 @@ const CheckoutForm = (props:any) => {
             clientSecret: secretKey,
             elements,
             confirmParams: {
-                return_url: 'http://localhost:3000/',
+                return_url: 'https://taxi-go-taupe.vercel.app/',
             }
         })
     };
